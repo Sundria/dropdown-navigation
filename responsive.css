@@ -1,0 +1,58 @@
+@media (max-width:1000px) {
+    .description-desktop {
+        align-items: center;
+    }
+
+    .description-single {
+        text-align: center;
+        width: 100%;
+    }
+
+    .align-main-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    button {
+        align-self: center;
+        margin: 20px 0;
+    }
+
+    .description-single h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .align-main-content {
+        flex-wrap: wrap-reverse;
+    }
+
+    .hero-mobile img {
+        display: block;
+    }
+
+    .hero-desktop {
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    .nav-desktop {
+        display: none;
+    }
+
+    .images {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .nav-mobile {
+        display: block;
+        padding: 10px;
+    }
+
+    .attribution {
+        margin-top: 40px;
+    }
+}
